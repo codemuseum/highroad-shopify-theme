@@ -38,6 +38,7 @@
 		<p class="subtotal">
 		<strong>Subtotal:</strong> {{cart.total_price | money_with_currency }}
 		</p>
+    <p class="checkout"><strong>For International Orders, please use normal checkout</strong> on the next page.<br/>Pay Pal Checkout (Yellow Button) is for U.S. Orders Only.</p>
     <p class="checkout"><input type="image" src="{{ 'checkout_icon.gif' | asset_url }}" alt="Proceed to Checkout" value="Proceed to Checkout" name="checkout"  /></p>
   </form>
 	
