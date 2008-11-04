@@ -15,7 +15,7 @@ body {
 	font: 10px/18px 'Verdana', sans-serif;
 	color: #585757;
 	text-align: center;
-	background: #fff url( header_bg-b.gif ) top left repeat-x;
+	background: #fff url( header_bg-y.gif ) top left repeat-x;
 }
 
 a {
@@ -231,7 +231,7 @@ height:80px;
 	height: 80px;
 	display: block;
 	float: right;
-	background: transparent url( logo-columbia.gif ) top left no-repeat;
+	background: transparent url( logo-columbia-y.gif ) top left no-repeat;
 }
 
 #logo span { display: none; }
@@ -239,8 +239,8 @@ height:80px;
 #header #subheader {position:absolute;bottom:0px; left:15px;}
 
 #nav {
-	height: 43px;
-	margin: 19px 0 0 0;
+	height: 50px;
+	margin: 12px 0 0 0;
 	padding: 0;
 	float: left;
 	list-style-type: none;
@@ -254,7 +254,7 @@ height:80px;
 }
 
 #nav li a {
-	height: 43px;
+	height: 50px;
 	display: block;
 	background-color: transparent;
 	background-position: top left;
@@ -266,42 +266,42 @@ height:80px;
 }
 
 #nav li a:hover, #nav li .active {
-	background-position: 0 -43px;
+	background-position: 0 -50px;
 }
 
 #nav-contact {
-	width: 77px;
-	background-image: url(contact-b.gif);
+	width: 71px;
+	background-image: url(contact-y.gif);
 }
 
 #nav-mission {
-	width: 84px;
-	background-image: url(mission-b.gif);
+	width: 72px;
+	background-image: url(mission-y.gif);
 }
 
 #nav-news {
-	width: 60px;
-	background-image: url(news-c.gif);
+	width: 56px;
+	background-image: url(news-y.gif);
 }
 
 #nav-partners {
-	width: 82px;
-	background-image: url(partners-b.gif);
+	width: 76px;
+	background-image: url(partners-y.gif);
 }
 
 #nav-team {
 	width: 62px;
-	background-image: url(team-b.gif);
+	background-image: url(team-y.gif);
 }
 
 #nav-tour {
-	width: 119px;
-	background-image: url(tourdefrance.gif);
+	width: 115px;
+	background-image: url(tourdefrance-y.gif);
 }
 
 #nav-store {
-	width: 58px;
-	background-image: url(store.gif);
+	width: 56px;
+	background-image: url(store-y.gif);
 }
 
 
@@ -322,15 +322,15 @@ height:80px;
 
 
 #footer {
-	height: 30px;
-	padding: 25px 0 0 0;
-	color: #fff;
+	height: 32px;
+	padding: 27px 0 0 0;
+	color: #000;
 	clear: both;
-	background: #007fc5 url( footer_bg-b.gif ) top left repeat-x;
+	background: #007fc5 url( footer_bg-y.gif ) top left repeat-x;
 }
 
-#footer a {color:#fff; text-decoration:underline;}
-#footer a.rss {background: #007fc5 url( rss-10.png) center left no-repeat; padding-left: 13px;}
+#footer a {color:#000; text-decoration:underline;}
+#footer a.rss {background: transparent url( rss-10-y.png) center left no-repeat; padding-left: 13px;}
 #footer input {font-size:10px;}
 #footer div.subscribe {float:left;}
 #footer div.copy { 
@@ -361,8 +361,8 @@ padding: 0;
 margin:0;
 font-size: 90%;
 padding:0.5em 1.5em;
-color: #fff;
-background: #3e8fc1 url(nav_heading_bg.gif) repeat-x;
+color: #000;
+background: #fdcd18 url(nav_heading_bg-y.gif) repeat-x;
 }
 #navigation dd, #search dd, #cart-right-col dd {
 margin:0;
