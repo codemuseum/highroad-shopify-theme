@@ -222,13 +222,19 @@ height:80px;
 
 #header {
 	width: 100%;
-	height: 130px;
+	height: 133px;
 	position:relative;
 	overflow:hidden;
 }
 
+#nav_topright{
+	height:17px;
+	padding-right:20px;
+	text-align:right;
+}
+
 #logo {
-	width: 236px;
+	width: 142px;
 	height: 100px;
 	display: block;
 	float: left;
@@ -243,9 +249,10 @@ height:80px;
 
 #nav {
 	width: 1024px;
-	height: 130px;
-	margin: 3px auto 0 auto;
-	background:#fff url( nav_bg.jpg) no-repeat;
+	height: 133px;
+	margin: 0px auto 0 auto;
+	background:#fff url(nav_bg.jpg) no-repeat;
+	background-position: 0px 17px;
 }
 
 #nav_container{
@@ -255,11 +262,11 @@ height:80px;
 
 #nav_bg_left, #nav_bg_right{
 	position:absolute;
-	top:3px;
+	top:7px;
 }
 
 #nav_bg_left{
-	background: url( nav_bg_tile_left.gif) top right repeat-x;
+	background: url(nav_bg_tile_right.gif) top right repeat-x;
 	right:50%;
 	width:50%;
 	margin-right:512px;
@@ -267,16 +274,18 @@ height:80px;
 }
 
 #nav_bg_right{
-	background: url( nav_bg_tile_right.gif) top left repeat-x;
+	background: url(nav_bg_tile_right.gif) top left repeat-x;
 	left:50%;
 	width:50%;
-	margin-left:511px;
+	margin-left:512px;
 	height:120px;
 }
 
 
 #nav_buttons {
-	padding: 76px 0 0 239px;
+	position:relative;
+	top:62px;
+	left:155px;
 }
 
 #nav_buttons div {
@@ -284,49 +293,34 @@ height:80px;
 }
 
 #nav_buttons a {
+	background-image: url(button_bar.jpg);	
 	display:block;
+	background-repeat:no-repeat;
+	background-position: 0px -100px;
 	height: 26px;
+
 }
 
-#nav_buttons a:hover, #nav_buttons .active {
-	background-position: 0 -26px;
-}
+#nav-mission { width:116px; }
+#nav-mission:hover { background-position: 11px 7px; }
 
-#nav-contact {
-	background-image: url( contact.jpg);
-	width:95px;
-}
+#nav-team {	width:96px; }
+#nav-team:hover { background-position: -105px 7px; }
 
-#nav-mission {
-	background-image: url( mission.jpg);
-	width:91px;
-}
+#nav-news { width:114px; }
+#nav-news:hover { background-position: -201px 7px; }
 
-#nav-news {
-	background-image: url( news.jpg);
-	width:75px;
-}
+#nav-races { width:72px; }
+#nav-races:hover { background-position: -315px 7px;}
 
-#nav-partners {
-	background-image: url( partners.jpg);
-	width:104px;
-}
+#nav-partners {	width:101px; }
+#nav-partners:hover { background-position: -387px 7px;}
 
-#nav-team {
-	background-image: url( team.jpg);
-	width:76px;
-}
+#nav-mediaroom { width:110px; }
+#nav-mediaroom:hover { background-position: -488px 7px;}
 
-#nav-tour {
-	background-image: url( tdf.jpg);
-	width:150px;
-}
-
-#nav-store {
-	width: 81px;
-	background-image: url( store.jpg);
-}
-
+#nav-store { width: 78px; }
+#nav-store:hover { background-position: -598px 7px; }
 
 
 /* Footer
