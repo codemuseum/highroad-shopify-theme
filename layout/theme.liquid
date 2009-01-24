@@ -22,12 +22,10 @@
   
   
   <script type="text/javascript" charset="utf-8">
-		
-		var helvetica = { src: '{{ 'HelveticaNeueMediumCond.swf' | asset_url }}', wmode: 'transparent'};
-		sIFR.activate( helvetica );
-		sIFR.replace( helvetica, { selector: 'h1', css:['a {color: #000; text-decoration: none;}', 'a:hover {color: #000; text-decoration: underline;}'] });
-		sIFR.replace( helvetica, { selector: 'h3', css:['a {color: #000; text-decoration: none; text-align:left}', 'a:hover {color: #000; text-decoration: underline;}'] });
-		
+	
+		sIFR.replaceElement(named({sSelector:"h1", sFlashSrc:"{{ 'dinbold.swf' | asset_url }}", sColor:"#000000", sWmode:"transparent", sFlashVars:'underline=true&textalign=left'}));
+		sIFR.replaceElement(named({sSelector:"h3", sFlashSrc:"{{ 'dinbold.swf' | asset_url }}", sColor:"#000000", sWmode:"transparent", sFlashVars:'underline=true&textalign=left'}));		
+				
 	</script>
   
   {{ content_for_header }}
