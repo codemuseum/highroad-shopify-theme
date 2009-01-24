@@ -320,8 +320,10 @@ height:80px;
 #nav-mediaroom { width:110px; }
 #nav-mediaroom:hover { background-position: -488px 7px;}
 
-#nav-store { width: 78px; }
-#nav-store:hover { background-position: -598px 7px; }
+a#nav-store {
+    width: 78px; 
+    background-position: -598px 7px;
+}
 
 
 /* Footer
